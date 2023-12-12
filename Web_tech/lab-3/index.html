@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab - 03 MAP TAG</title>
+</head>
+
+<body style="background-color: aliceblue;">
+    <img src="image_ninja.jpg" alt="Ninjas Image" usemap="#ninja_map" width="400" height="400"
+        style="margin: 7rem 25rem;">
+    <map name="ninja_map">
+        <area shape="rect" coords="0,0,200,200" alt="Blue" href="#"
+            onclick="openInNewTab('https://th.bing.com/th/id/OIP.prkYSUW1Fj4GnMNKO3MaiAHaGI?pid=ImgDet&rs=1')">
+        <area shape="rect" coords="200,0,400,200" alt="Orange" href="#"
+            onclick="openInNewTab('https://i.pinimg.com/originals/01/e9/72/01e9723f105d553724e4c577d7ed29a9.jpg')">
+        <area shape="rect" coords="0,200,200,400" alt="Red" href="#"
+            onclick="openInNewTab('https://i.pinimg.com/736x/7e/54/cd/7e54cd815991d954c82ff191c88f157c.jpg')">
+        <area shape="rect" coords="200,200,400,400" alt="Purple" href="#"
+            onclick="openInNewTab('https://i.pinimg.com/736x/88/6e/7f/886e7f2705900c2bb644ea78fd28adf7.jpg')">
+    </map>
+    <script>
+        function openInNewTab(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+
+</html>

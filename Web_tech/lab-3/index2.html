@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab - 03 MAP TAG</title>
+    <style>
+        .overlay {
+            position: absolute;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position: relative; margin: 7rem 25rem;">
+        <img src="image_ninja.jpg" alt="Ninjas Image" width="400" height="400">
+        <div class="overlay" style="left: 0; top: 0; width: 200px; height: 200px;"
+            onclick="openInNewTab('https://th.bing.com/th/id/OIP.prkYSUW1Fj4GnMNKO3MaiAHaGI?pid=ImgDet&rs=1')"></div>
+        <div class="overlay" style="left: 200px; top: 0; width: 200px; height: 200px;"
+            onclick="openInNewTab('https://i.pinimg.com/originals/01/e9/72/01e9723f105d553724e4c577d7ed29a9.jpg')">
+        </div>
+        <div class="overlay" style="left: 0; top: 200px; width: 200px; height: 200px;"
+            onclick="openInNewTab('https://i.pinimg.com/736x/7e/54/cd/7e54cd815991d954c82ff191c88f157c.jpg')"></div>
+        <div class="overlay" style="left: 200px; top: 200px; width: 200px; height: 200px;"
+            onclick="openInNewTab('https://i.pinimg.com/736x/88/6e/7f/886e7f2705900c2bb644ea78fd28adf7.jpg')"></div>
+    </div>
+    <script>
+        function openInNewTab(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "cph.general.saveLocation": "",
+    "files.associations": {
+        "condition_variable": "cpp",
+        "thread": "cpp",
+        "ostream": "cpp"
+    }
+}

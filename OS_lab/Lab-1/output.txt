@@ -1,0 +1,23 @@
+Turn arrounnd time for P1 is:1
+Wating time is: 0
+Responce Time is: 0
+
+Turn arrounnd time for P2 is:6
+Wating time is: 1
+Responce Time is: 1
+
+Turn arrounnd time for P3 is:9
+Wating time is: 6
+Responce Time is: 6
+
+Turn arrounnd time for P4 is:11
+Wating time is: 9
+Responce Time is: 9
+
+Turn arrounnd time for P5 is:12
+Wating time is: 11
+Responce Time is: 11
+
+Avg turn- arround time: 7.8
+Avg waiting time: 5.4
+Avg responce time: 5.4

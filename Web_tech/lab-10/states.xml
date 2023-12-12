@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document [
+    <!ELEMENT document (states)>
+    <!ELEMENT states (state)*>
+    <!ELEMENT state (state_name,capital,tourist_spot)>
+    <!ELEMENT capital (#PCDATA)>
+
+    <!ELEMENT state_name (#PCDATA)>
+    <!ELEMENT tourist_spot (#PCDATA)>
+]>
+<document>
+    <states>
+        <state>
+            <state_name>Tamil Nadu</state_name>
+            <capital></capital>
+            <tourist_spot>Marina Beach</tourist_spot>
+        </state>
+        <state>
+            <state_name>Kerala</state_name>
+            <capital></capital>
+            <tourist_spot>Munnar</tourist_spot>
+        </state>
+        <state>
+            <state_name>Rajasthan</state_name>
+            <capital></capital>
+            <tourist_spot>Jaipur</tourist_spot>
+        </state>
+        <state>
+            <state_name>Goa</state_name>
+            <capital></capital>
+            <tourist_spot>Calangute Beach</tourist_spot>
+        </state>
+        <state>
+            <state_name>Uttar Pradesh</state_name>
+            <capital></capital>
+            <tourist_spot>Taj Mahal</tourist_spot>
+        </state>
+        <state>
+            <state_name>Andhra Pradesh</state_name>
+            <capital></capital>
+            <tourist_spot>Tirupati</tourist_spot>
+        </state>
+        <state>
+            <state_name>West Bengal</state_name>
+            <capital></capital>
+            <tourist_spot>Sundarbans</tourist_spot>
+        </state>
+        <state>
+            <state_name>Madhya Pradesh</state_name>
+            <capital></capital>
+            <tourist_spot>Indore</tourist_spot>
+        </state>
+        <state>
+            <state_name>Maharashtra</state_name>
+            <capital></capital>
+            <tourist_spot>Ajanta Caves</tourist_spot>
+        </state>
+        <state>
+            <state_name>Gujarat</state_name>
+            <capital></capital>
+            <tourist_spot>Ahmedabad</tourist_spot>
+        </state>
+    </states>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE document [
+    <!ELEMENT document (college,students)>
+    <!ELEMENT college (#PCDATA)>
+
+    <!ELEMENT students (student)*>
+    <!ELEMENT student (name, roll, program, branch, projects)>
+
+    <!ELEMENT name (firstname, lastname)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT firstname (#PCDATA)>
+
+    <!ELEMENT roll (#PCDATA)>
+
+    <!ELEMENT branch (#PCDATA)>
+
+    <!ELEMENT program (#PCDATA)>
+
+    <!ELEMENT projects (project)*>
+    <!ELEMENT project (projectID,subject,assigndate,deadline,topic)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT projectID (#PCDATA)>
+    <!ELEMENT deadline (#PCDATA)>
+    <!ELEMENT assigndate (#PCDATA)>
+    <!ELEMENT topic (#PCDATA)>
+]>
+<document>
+    <college>Dr. B.R. Ambedkar National Institute of Technology Jalandhar, Punjab.</college>
+    <students>
+        <student>
+            <name>
+                <firstname>Kunal</firstname>
+                <lastname>Kumar</lastname>
+            </name>
+
+            <roll>21103078</roll>
+
+            <program>B.Tech</program>
+
+            <branch>Computer Science and Engineering.</branch>
+
+            <projects>
+                <project>
+                    <projectID>1</projectID>
+                    <subject>DBMS</subject>
+                    <assigndate>01 Jan, 2023.</assigndate>
+                    <deadline>30 May, 2023.</deadline>
+                    <topic>University management system</topic>
+                </project>
+                <project>
+                    <projectID>2</projectID>
+                    <subject>OOPS</subject>
+                    <assigndate>01 June, 2022.</assigndate>
+                    <deadline>30 Dec, 2022.</deadline>
+                    <topic>Library management system.</topic>
+                </project>
+            </projects>
+        </student>
+
+        <student>
+            <name>
+                <firstname>JashanPreeto</firstname>
+                <lastname>Singh</lastname>
+            </name>
+
+            <roll>21103066</roll>
+
+            <program>B.Tech</program>
+
+            <branch>Computer Science and Engineering.</branch>
+
+            <projects>
+                <project>
+                    <projectID>1</projectID>
+                    <subject>DBMS</subject>
+                    <assigndate>01 Jan, 2023.</assigndate>
+                    <deadline>30 May, 2023.</deadline>
+                    <topic>Airlines management system</topic>
+                </project>
+                <project>
+                    <projectID>2</projectID>
+                    <subject>OOPS</subject>
+                    <assigndate>01 June, 2022.</assigndate>
+                    <deadline>30 Dec, 2022.</deadline>
+                    <topic>Bank Management system.</topic>
+                </project>
+            </projects>
+        </student>
+    </students>
+</document>
