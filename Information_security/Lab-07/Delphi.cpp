@@ -20,7 +20,7 @@ int main()
     G = 9; // premitive root of P
     cout << "The value of G : " << G << endl;
 
-    a = 4; // a choosen privet key for alice.
+    a = 2; // a choosen privet key for alice.
     cout << "The private key a for Alice : " << a << endl;
 
     x = power(G, a, P); // x= G^a mod P

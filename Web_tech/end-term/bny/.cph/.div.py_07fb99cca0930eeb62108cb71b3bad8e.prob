@@ -1,0 +1,1 @@
+{"name":"Local: div","url":"a:\\Program Code VSC\\5th_SEM\\Web_tech\\end-term\\bny\\div.py","tests":[{"id":1702658642157,"input":"5 3\n10 2 8 7 6\n2 1 4\n1 1 4\n2 1 4","output":"27 \n11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"a:\\Program Code VSC\\5th_SEM\\Web_tech\\end-term\\bny\\div.py","group":"local","local":true}

@@ -22,7 +22,6 @@ int main()
     double e = 2;
     while (e < phin)
     {
-
         if (gcd(e, phin) == 1)
             break;
         else
